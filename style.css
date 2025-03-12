@@ -2,7 +2,7 @@
 body{margin: 0; padding: 0; font-family:'Pretendard'; font-size: 17px; background-color: #fffefe;}
 :root{
     --pink001:#ea7480;
-    --font:"Abril Fatface";
+    --font:"Abril_Fatface";
 }
 .sec{padding:115px 100px;}
 .inner{padding:0 70px;}
@@ -12,7 +12,7 @@ body{margin: 0; padding: 0; font-family:'Pretendard'; font-size: 17px; backgroun
 /* 표지 */
 #sec01{background:#ee9696;}
 #sec01 .cover_top{}
-#sec01 .cover_top p{color:#ffffff; opacity: .8;  font-style:"Abril Fatface"; font-size:23px;}
+#sec01 .cover_top p{color:#ffffff; opacity: .8;  font-style:"Abril_Fatface"; font-size:23px;}
 #sec01 .cover_top .obj{}
 
 #sec01 .cover_slog{}
