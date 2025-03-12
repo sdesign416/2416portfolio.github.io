@@ -12,7 +12,7 @@ body{margin: 0; padding: 0; font-family:'Pretendard'; font-size: 17px; backgroun
 /* 표지 */
 #sec01{background:#ee9696;}
 #sec01 .cover_top{}
-#sec01 .cover_top p{color:#ffffff; opacity: .8;  font-style:"Abril+Fatface"; font-size:23px;}
+#sec01 .cover_top p{color:#ffffff; opacity: .8;  font-style:'Abril Fatface'; font-size:23px;}
 #sec01 .cover_top .obj{}
 
 #sec01 .cover_slog{}
