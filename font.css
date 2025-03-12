@@ -1,6 +1,10 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-
+@font-face {
+    font-family: 'AbrilFatface';
+    src: url('/AbrilFatface-Regular.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'Pretendard';
