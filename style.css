@@ -1,0 +1,6 @@
+/* 섹션공통 */
+body{font-size: 17px; color: #121212; background-color: #fffefe;}
+:root{
+    --pink001:#ea7480;
+}
+.sec{color: var(--pink001);}
