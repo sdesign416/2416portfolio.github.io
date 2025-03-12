@@ -1,5 +1,5 @@
 /* 섹션공통 */
-body{margin: 0; padding: 0; font-family:'Pretendard', 'Noto Sans KR'; 17px; background-color: #fffefe;}
+body{margin: 0; padding: 0; font-family:'Pretendard', 'Noto Sans KR'; font-size: 17px; background-color: #fffefe;}
 :root{
     --pink001:#ea7480;
     --font:"Abril Fatface", serif;
