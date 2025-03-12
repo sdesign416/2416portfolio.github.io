@@ -4,19 +4,19 @@ body{background-color: #fffefe;}
     --pink001:#ea7480;
     --font:"Abril Fatface";
 }
-.sec{padding:115px 100px;}
+.sec{padding:115px 100px; max-width: 1920px; height:1080px; margin: 0 auto;}
 .inner{padding:0 70px;}
 
 
 
 /* 표지 */
 #sec01{background:#ee9696;}
-#sec01 .cover_top{}
+#sec01 .cover_top{position: relative; display: flex; justify-content: center; align-items: center; height: 65px;}
 #sec01 .cover_top p{color:#ffffff; opacity: .8; font-family:var(--font); font-size:23px; text-transform: uppercase; letter-spacing: 0.07em;}
-#sec01 .cover_top .obj{}
+#sec01 .cover_top .obj{position: absolute;right: 0;top: 50%;transform: translateY(-50%);}
 
-#sec01 .cover_slog{}
-#sec01 .cover_slog p{font-size:27px; font-family: 'Montserrat';}
+#sec01 .cover_slog{position: relative;padding-top: 180px;}
+#sec01 .cover_slog p{font-size:27px; font-weight: 400; color: #ffe4e4; letter-spacing: -0.005em; line-height: 1;}
 #sec01 .cover_slog h5{}
 #sec01 .cover_slog h5 b{}
 
