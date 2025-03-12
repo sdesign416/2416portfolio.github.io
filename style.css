@@ -4,16 +4,19 @@ body{margin: 0; padding: 0; font-family:'Pretendard'; font-size: 17px; backgroun
     --pink001:#ea7480;
     --font:"Abril Fatface", serif;
 }
-.sec{}
+.sec{padding:115px 100px;}
+.inner{padding:0 70px;}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap');
 
 /* 표지 */
 #sec01{background:#ee9696;}
 #sec01 .cover_top{}
-#sec01 .cover_top p{color:#ffffff; opacity: .8;  font-style:"Abril Fatface"; font-size:50px;}
+#sec01 .cover_top p{color:#ffffff; opacity: .8;  font-style:"Abril Fatface"; font-size:23px;}
 #sec01 .cover_top .obj{}
 
 #sec01 .cover_slog{}
-#sec01 .cover_slog p{}
+#sec01 .cover_slog p{font-size:27px; font-family: 'Montserrat';}
 #sec01 .cover_slog h5{}
 #sec01 .cover_slog h5 b{}
 
@@ -25,6 +28,6 @@ body{margin: 0; padding: 0; font-family:'Pretendard'; font-size: 17px; backgroun
 #sec01 .cover_bot dl dd i{}
 #sec01 .cover_bot dl dd a{}
 
-#sec01 .obj{}
-#sec01 .obj span{display:block; width: 55px; height: 55px; border-radius: 50%; margin-right:50px; background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);}
-#sec01 .obj span:nth-child(1){margin-right: 0; width: 65px; height: 65px;}
+#sec01 .obj{display:flex; align-items: center; gap:40px;}
+#sec01 .obj span{display:block; width: 55px; height: 55px; border-radius: 50%; background: linear-gradient(-90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);}
+#sec01 .obj span:nth-child(1){width: 65px; height: 65px; background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);} 
