@@ -4,9 +4,9 @@ body{background-color: #fffefe;}
     --pink001:#ea7480;
     --font:"Abril Fatface";
 }
-.sec{padding:115px 100px; max-width: 1920px; height:1080px; margin: 0 auto;}
-.inner{padding:0 70px;}
-
+.sec{position: relative; max-width: 1920px; height:1080px; margin: 0 auto;}
+.inner{position: relative;padding:115px 100px; height: -webkit-fill-available;}
+.tbt{position: relative;padding:0 70px;}
 
 
 /* 표지 */
@@ -17,17 +17,18 @@ body{background-color: #fffefe;}
 
 #sec01 .cover_slog{position: relative;padding-top: 180px;}
 #sec01 .cover_slog p{font-size:27px; font-weight: 400; color: #ffe4e4; letter-spacing: -0.005em; line-height: 1;}
-#sec01 .cover_slog h5{}
-#sec01 .cover_slog h5 b{}
+#sec01 .cover_slog h5{font-size:95px; font-weight: 200; color: #ffffff; letter-spacing: 0.001em; line-height: 1.25; margin-top: 38px;}
+#sec01 .cover_slog h5 b{font-weight: 600;}
 
-#sec01 .cover_bot{}
+#sec01 .cover_bot{position: relative; display: flex; align-items: flex-end; justify-content: space-between;
+    position: absolute; width: calc(100% - 200px); left: 100px; bottom: 115px;}
 #sec01 .cover_bot .obj{}
 
-#sec01 .cover_bot dl{}
-#sec01 .cover_bot dl dt{}
-#sec01 .cover_bot dl dd{}
+#sec01 .cover_bot dl{color:#ffffff;}
+#sec01 .cover_bot dl dt{font-family:var(--font); font-size:22px; text-transform: uppercase; letter-spacing: 0.025em; margin-bottom: 15px;}
+#sec01 .cover_bot dl dd{ opacity: .6; font-size: 19px; letter-spacing: 0.001em; line-height: 1; margin-top: 5px;}
 #sec01 .cover_bot dl dd i{}
-#sec01 .cover_bot dl dd a{}
+#sec01 .cover_bot dl dd a{color:#ffffff;}
 
 #sec01 .obj{display:flex; align-items: center; gap:40px;}
 #sec01 .obj span{display:block; width: 55px; height: 55px; border-radius: 50%; background: linear-gradient(-90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);}
